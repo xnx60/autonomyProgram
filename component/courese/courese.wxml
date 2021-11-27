@@ -1,0 +1,56 @@
+<!--component/courese/courese.wxml-->
+<view class="question">什么是模拟讲堂?</view>
+<view class="qst_bor"></view>
+<view class="detila">
+模拟讲堂是为检验心理委员对心理健康知识及朋辈辅导技能掌握的程度，发挥心理委员在校心理防御体系中的重要作用而举行的一年一度的风采大赛。
+模拟讲堂分为案例分析和模拟授课两个环节，案例分析由心委现场对给出的案例进行分析并由评委老师现场提问及点评;
+模拟授课需从《大学生心理健康教育新编》内选取某一知识点进行10分钟左右的讲授。
+</view>
+
+<view class="border_box">
+ <view class="card">
+  <van-card lazy-load="ture"
+  desc="演讲者：C同学"
+  descmore="时间地点：学术报告厅..."
+  title="计算机学院|悦纳自我，肯定自我 "
+  thumb="https://hbimg.huabanimg.com/25e8ed01083fab885077cf633c824aa906acb4281995-gc7bwh_fw658/format/webp"
+>
+  <view slot="footer" class="foot">
+  <navigator url="../../pages/monidetail/monidetail?type=0" class="check" hover-class="none">查看全部 
+    <text decode='true'>&gt;</text><text decode='true'>&gt;</text>
+  </navigator>
+  </view>
+</van-card>
+ </view>   
+ <view class="card">
+  <van-card lazy-load="ture"
+  desc="演讲者：B同学"
+  descmore="时间地点：学术报告厅..."
+  title="自动化学院|自卑心理如何矫治效果会好"
+  thumb="https://th.bing.com/th/id/R3a65bfc3da7ff401825c188c4466c9c0?rik=ixbf%2bXQFtKlGkQ&riu=http%3a%2f%2fpic.17qq.com%2fuploads%2fwqnhkshfsy.jpeg&ehk=G5Vu3XplTuJMs7QjR5TQ%2fnvRZDYzACS%2bvWBR6syoWm0%3d&risl=&pid=ImgRaw"
+>
+  <view slot="footer" class="foot">
+  <navigator url="../../pages/monidetail/monidetail?type=1" class="check" hover-class="none">查看全部 
+    <text decode='true'>&gt;</text><text decode='true'>&gt;</text>
+  </navigator>
+  </view>
+</van-card>
+ </view>  
+ <view class="card">
+  <van-card lazy-load="ture"
+  desc="演讲者：A同学"
+  descmore="时间地点：学术报告厅..."
+  title="管理学院|如何提升自我价值感"
+  thumb="https://th.bing.com/th/id/Ra0fcb7e7e6ab42a5079dacc0e520c57e?rik=FVnzbmzk3q820Q&riu=http%3a%2f%2fpic.51yuansu.com%2fpic3%2fcover%2f02%2f64%2f00%2f59fcc578ad76e_610.jpg&ehk=4i59Nt%2bs4T%2fzcoeXMrngvfVYjqoUwlPvIRzcoqrqLiU%3d&risl=&pid=ImgRaw"
+>
+  <view slot="footer" class="foot">
+  <navigator url="../../pages/monidetail/monidetail?type=2" class="check" hover-class="none">查看全部 
+    <text decode='true'>&gt;</text><text decode='true'>&gt;</text>
+  </navigator>
+  </view>
+</van-card>
+ </view>  
+ <view class="bottom_line">
+  <view class="bottom_boreder"></view>  <view class="text">已经到底了</view>  <view class="bottom_boreder"></view>
+</view>
+</view>

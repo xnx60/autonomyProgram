@@ -1,0 +1,57 @@
+@import'../studydetail/studydetail.wxss';
+@import'../../style/icon.wxss';
+/* 中间的 */
+.two{
+  flex: 0.65;
+  height: 190rpx;
+}
+.three{
+  height: 170rpx;
+  flex: 0.35;
+}
+.pic,.tex{
+  height: 100%;
+  width: 100%;
+}
+.write{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100%;
+  padding-top: 15rpx;
+}
+.textsmall {
+width: 100%;
+display: block;
+padding-top: 20rpx;
+}
+.person{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10rpx;
+}
+
+.day{
+  padding-right: 20rpx;
+}
+.stuimg {
+ margin-top: 10rpx;
+}
+.comp{
+  margin-top: -40rpx;
+}
+.newsmall{
+  padding-top: 0;
+}
+.newtwo{
+  height: 220rpx;
+}
+.stu{
+  margin-top: 31rpx;
+  width: 100%;
+  height: 100%;
+}
+.icon-yanjing{
+  font-size: 30rpx;
+  margin-right: 10rpx;
+}

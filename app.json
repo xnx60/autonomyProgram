@@ -1,0 +1,52 @@
+{
+  "pages":[
+    
+    "pages/user/user",
+    "pages/feedback/feedback",
+    "pages/forget/forget",
+    "pages/new/new",
+    "pages/tomato/tomato",
+    "pages/tomatoresult/tomatoresult"
+
+  ],
+  "usingComponents": {
+  "van-icon": "@vant/weapp/icon/index",
+  "van-tab": "@vant/weapp/tab/index",
+  "van-tabs": "@vant/weapp/tabs/index"
+},
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffb3b3",
+    "navigationBarTitleText": "自律者行远方",
+    "navigationBarTextStyle":"black" 
+  },
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar": {
+      "color": "#aca9ac",
+      "selectedColor": "#ffb3b3",
+      "backgroundColor": "#ffffff",
+      "position": "bottom",
+      "list": [         
+          {
+            "pagePath": "pages/tomato/tomato", 
+            "text": "番茄时钟",
+            "iconPath": "iconimage/tomato.png",
+            "selectedIconPath": "iconimage/tomato2.png"
+        },    
+         {
+          "pagePath": "pages/forget/forget", 
+          "text": "备忘录",
+          "iconPath": "iconimage/day.png",
+          "selectedIconPath": "iconimage/day2.png"
+      },       
+                 {
+              "pagePath": "pages/user/user",
+              "text": "我的",
+              "iconPath": "iconimage/people.png",
+              "selectedIconPath": "iconimage/people2.png"
+          }
+      ]
+  }
+  
+}

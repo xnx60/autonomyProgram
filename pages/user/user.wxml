@@ -1,0 +1,63 @@
+
+ <view class="user_info_wrap">
+  <view class="userinfo">
+    <block wx:if="{{!hasUserInfo}}">
+      <image class="denglu" src="../../iconimage/user.png"></image>
+    <view>
+      <button plain class="user_btn"  wx:if="{{canIUseGetUserProfile}}" bindtap="getUserProfile"> 请登录 </button>
+      <button class="user_btn"  wx:else open-type="getUserInfo" bindgetuserinfo="getUserInfo">请登录</button>
+  </view>
+    </block>
+    <view wx:else class="user_img_wrap">
+      <image class="user_bg" src="{{userInfo.avatarUrl}}" ></image>
+    <view class="user_info">
+      <image class="user_icon" src="{{userInfo.avatarUrl}}"></image>
+      <view class="user_name">{{userInfo.nickName}}</view>
+    </view>
+    </view>
+  </view>
+</view> 
+
+    <!-- 下面绝对定位一个盒子 -->
+    <view class="user_content">
+  <view class="user_main">
+<view class="all">
+   <!-- 我的咨询 -->
+   <van-cell >
+  <view slot="title">
+    <view bindtap="census" class="van-cell-text" >   <text class="iconfont icon icon-zixun"></text><text class="my">番茄记录</text> </view>
+  </view>
+</van-cell>
+
+</view>
+<view class="other">
+<view class="othernext">  
+  <van-cell is-link >
+  <view slot="title">
+    <view class="van-cell-text"> <text class="my">帮助</text> </view>
+  </view>
+</van-cell>
+<van-cell is-link >
+  <view slot="title" class=" btnpos">
+    <view class="van-cell-text "> <text class="my">联系客服</text> </view>
+    <button class="btnno"  open-type="contact">联系客服</button>
+  </view>
+</van-cell>
+<van-cell is-link 
+url="../feedback/feedback"
+>
+  <view slot="title">
+    <view class="van-cell-text"> <text class="my">意见反馈</text> </view>
+  </view>
+</van-cell>
+<van-cell is-link >
+  <view slot="title">
+    <view class="van-cell-text" bindtap="no_login"> <text class="my">退出登录
+    </text> </view>
+  </view>
+</van-cell>
+</view>
+
+  </view>
+</view>
+</view>

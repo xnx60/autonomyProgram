@@ -1,0 +1,59 @@
+<!--component/studezixun/studezixun.wxml-->
+<view class="box">
+<!-- 学业资讯 -->
+  <block wx:for="{{ studyinf}}" wx:key="index" wx:if="{{num==0}}"> 
+<navigator hover-class="none" url="../../pages/studyinformation/studyinformation?studyinf={{index}}">
+    <view class="row">
+  <view class="rowleft two">
+    <view class="tex">
+      <view class="textbig">{{item.title}}</view>
+      <view class="textsmall">
+        <view class="write">{{item.writer}}</view>
+        <view class="person"> 
+          <view>{{item.ren}}人订阅   <text class="iconfont icon-shuangren"></text></view>
+          <view class="day">{{item.time}}</view>
+        </view>
+    </view>
+    </view>
+  </view>
+  <view class="rowright three">
+    <view class="picture pic"><image class="stuimg"  src="{{item.studyimg}} "></image></view> 
+  </view>
+</view>
+</navigator>
+</block>
+
+
+<!-- 竞赛 -->
+<view class="comp" wx:if="{{num==1}}">
+  <block wx:for="{{ cominf}}" wx:key="index"> 
+<navigator hover-class="none" url="../../pages/studyinformation/studyinformation?studyinf={{index}}">
+    <view class="row">
+  <view class="rowleft two newtwo">
+    <view class="tex">
+      <view class="textbig">{{item.title}}</view>
+      <view class="textsmall newsmall">
+        <view class="write">主办方：{{item.writer}}</view>
+        <view class="person"> 
+          <view>报名截止时间：{{item.time}}</view>
+        </view>
+        <view> 
+          <view>比赛时间：{{item.time2}}</view>
+        </view>
+    </view>
+    </view>
+  </view>
+  <view class="rowright three">
+    <view class="picture pic"><image class="stu"  src="{{item.studyimg}} "></image></view> 
+  </view>
+</view>
+</navigator>
+</block>
+<view class="addmore"></view>
+</view>
+
+
+ <view class="bottom_line">
+  <view class="bottom_boreder"></view>  <view class="text1">已经到底了</view>  <view class="bottom_boreder"></view>
+</view>
+</view> 

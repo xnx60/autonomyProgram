@@ -1,0 +1,55 @@
+<view class="bg">
+<view class="myimg" >
+  <view class="mytext">
+  <view class="welcome">点亮职场航灯</view> 
+  <view class="welcome world">Open your career </view> 
+  <view class="jianjie">模拟求职是为提高学生求职应聘能力和面试技巧，帮助他们进一步合理规划职业发展路径，增强学生的面试综合素质,提高就业竞争力而举办的活动。 </view> 
+  <view class="jianjie">模拟求职大赛为同学们提供一个实践、交流和学习的平台，让他们通过经历和感受求职面试的模拟场景，收获对未来职场竞争有帮助的扎实本领。本活动由以下三个部分组成 </view> 
+  </view>
+</view>
+
+<view class="com">
+<view class="relus">
+<view class="jianli">
+  <view class="photo"></view>
+  <view class="detail">
+    <view class="title1">resume</view>
+    <view class="title2">求职简历</view>
+    <view class="more">初赛阶段:参赛者提交个人求职简历(高年级参赛同学建议根据实际情况制作求职简历，低年级参赛同学可根据职业规划意向模拟制作求职简历)。由承办单位邀请邀请评委老师组成专家评审团对所有上交作品进行评比，根据评比标准选出20份优秀作品进入复赛。</view>
+  </view>
+</view>
+<view class="no">
+
+  <view class="detail two">
+    <view class="title1">mock interview</view>
+    <view class="title2">模拟面试</view>
+    <view class="more">复赛阶段:由各学院自行组织，比赛内容由简历演说和无领导小组面试、情景面试等面试形式，经评审后，各学院推出1名参赛选手代表参加决赛。</view>
+  </view>
+  <view class="photo three"></view>
+</view>
+<view class="show">
+  <view class="photo"></view>
+  <view class="detail">
+    <view class="title1">Final defense </view>
+    <view class="title2">决赛答辩</view>
+    <view class="more">诀赛阶段:自我介绍(PPT展示) +评委提问
+      <view>(1)第一轮:参赛选手上台进行PPT展示的自我介绍</view>
+(2)第二轮: HR根据选手求职岗位及自我介绍表现进行针对性提问，选手现场作答。</view>
+  </view>
+</view>
+</view>
+</view>
+
+<view class="btn">
+  <view>
+<van-button round color="linear-gradient(to right,  #7bd8f8, #4a93e0)">
+收看录播
+</van-button>
+</view>
+<view>
+<van-button round color="linear-gradient(to right,  #7bd8f8, #4a93e0)">
+  我要报名
+</van-button>
+</view>
+</view>
+</view>

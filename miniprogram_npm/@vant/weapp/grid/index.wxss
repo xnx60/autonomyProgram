@@ -1,0 +1,4 @@
+@import '../common/index.wxss';.van-grid{position:relative;box-sizing:border-box;overflow:hidden}
+.van-hairline--surround:after {
+  border-radius: 60rpx;
+}

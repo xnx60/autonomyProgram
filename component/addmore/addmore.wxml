@@ -1,0 +1,6 @@
+<view bindtap="showOrHide" wx:if="{{isShow}}" catchtouchmove="myCatchTouch"></view>
+<view>
+<image src="{{icon1}}" class="buttom buttom1" animation="{{anim1}}" bindtap="icon2"></image>
+<image src="{{icon2}}" class="buttom buttom1" animation="{{anim2}}" bindtap="icon1"></image>
+<image src="{{imgs.icon3}}" class="buttom buttom3" animation="{{animMain}}" bindtap="showOrHide"></image>
+</view>

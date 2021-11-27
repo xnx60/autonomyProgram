@@ -1,0 +1,45 @@
+ <view class="box">
+   <view wx:if="{{num==0}}">
+  <block wx:for="{{material}}" wx:key="index">
+    <navigator url="../../pages/studyziliao/studyziliao?study={{index}}" hover-class="none">
+<view class="row">
+  <view class="rowleft">
+    <view class="text">
+      <view class="textbig">{{item.title}}</view>
+      <view class="textsmall">
+        <view>
+        <view>作者： {{item.writer}}</view>
+        <view>出版社：{{item.out}}</view>
+      </view>
+    </view>
+    </view>
+  </view>
+  <view class="rowright">
+    <view class="picture"><image class="stuimg"  src="{{item.studyimg}} "></image></view> 
+  </view>
+</view>
+</navigator>
+</block>
+</view> 
+</view>
+
+
+
+
+<!-- 问答 -->
+<view wx:if="{{num==1}}">
+<view class="border_box">
+<block wx:for="{{qandanswer}}" wx:key="index">
+<view class="card answer" id="{{index}}" bindtap="answerzdetail" > 
+  <navigator url="../../pages/studywenda/studywenda?answer={{index}}"hover-class="none">
+ <view class="question">{{item.question}}</view>
+ <view class="queslittletext">{{item.num}}次浏览 · {{item.huida}}个回答</view> 
+ <view class="time">{{item.time}}</view>
+</navigator>
+</view>
+</block>
+</view>
+</view>
+<view class="bottom_line">
+  <view class="bottom_boreder"></view>  <view class="text1">已经到底了</view>  <view class="bottom_boreder"></view>
+</view>

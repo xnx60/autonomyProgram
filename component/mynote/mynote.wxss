@@ -1,0 +1,60 @@
+@import'../../style/icon.wxss';
+.timer{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.time{
+  padding: 30rpx 30rpx;
+  font-weight: 600;
+}
+.timeicon{
+  color:#828482;
+  padding-top: 10rpx;
+}
+.swap{
+  margin: 20rpx 70rpx 40rpx 70rpx;
+  border-bottom: dashed 1rpx #c2c1bd;
+  padding-bottom: 45rpx;
+}
+.text{
+  color: #515451;
+  font-size: 32rpx;
+  line-height: 43rpx;
+}
+.blue{
+  color: #599af8;
+}
+.share{
+  display: flex;
+  color: #828482;
+  justify-content: space-between;
+  padding-top: 25rpx;
+}
+.pad{
+  padding-left: 12rpx;
+}
+.bottom_line {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+}
+.bottom_boreder {
+  width: 130rpx;
+  height: 4rpx;
+  background-color: #b4b4b4;
+}
+.text1 {
+  color: #d7d7d7;
+  margin-top: -43rpx;
+  padding: 20rpx 30rpx;
+}
+.two{
+  background-size: cover;
+  background-image: url('https://hbimg.huabanimg.com/a61065fdc0d82ab31c75f339a2c722233584bde4bfd6-ch47ln_fw658/format/webp');
+}
+.text1 {
+  color: #828482;
+
+}

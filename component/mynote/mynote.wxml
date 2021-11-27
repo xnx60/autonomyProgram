@@ -1,0 +1,24 @@
+<view class="two">
+<block wx:for="{{detail}}" wx:key="index">
+<view class="timer">
+  <view class="time">
+  {{item.time}}
+</view>
+<view class="timeicon">  <text class="iconfont {{item.icon}}"></text></view>
+</view>
+<view class="swap text">
+ <view>{{item.text}}</view>
+  <navigator hover-class="none" url="../../pages/mybiji/mybiji?my={{index}}">
+    <view class="blue">...全文</view>
+  </navigator>
+<view class="share">
+  <view class="iconfont icon-zhuanfafasong-3"></view>
+  <view class="iconfont icon-huida"><text class="pad">{{item.pinlun}}</text> </view>
+  <view class="iconfont icon-zan "><text class="pad">{{item.dianzan}}</text> </view>
+</view>
+</view>
+</block>
+<view class="bottom_line">
+  <view class="bottom_boreder"></view>  <view class="text1">已经到底了</view>  <view class="bottom_boreder"></view>
+</view>
+</view>

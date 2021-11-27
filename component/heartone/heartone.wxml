@@ -1,0 +1,180 @@
+<!--component/showBox/showBox.wxml-->
+<view class="border_box">
+  <view  wx:if="{{indexmy==0}}">
+ <view class="card" bindtap="job" >
+  <van-card  lazy-load="ture" 
+  desc="助教、辅导员、咨询师"
+  title="贾朝强"
+  descmore="硕士"
+  thumb="https://img.imgdb.cn/item/60903c31d1a9ae528fc22d17.png"
+>
+</van-card>
+ </view>  
+ <view class="card" bindtap="job1">
+  <van-card lazy-load="ture"
+  desc="就业创业骨干导师、助教"
+  descmore="硕士"
+  title="杜坤"
+  thumb="https://img.imgdb.cn/item/60903b22d1a9ae528fb8f908.png"
+>
+
+</van-card>
+ </view>  
+ <view class="card" bindtap="job2">
+  <van-card lazy-load="ture"
+  desc="助教、辅导员"
+  descmore="硕士"
+  title="袁晓聪"
+  thumb="https://img.imgdb.cn/item/60903bc9d1a9ae528fbecf6c.png"
+>
+
+</van-card>
+ </view>   
+</view>
+<!-- 二 -->
+<view  wx:if="{{indexmy==1}}">
+ <view class="card" >
+  <van-card  lazy-load="ture" 
+  desc="主讲人：王教授"
+  title="计算机学院就业指导讲座"
+  descmore="时间：..."
+  thumb="https://hbimg.huabanimg.com/e83dc4777938271c15647ac81230bc8b114e0e4216a9a2-8CFYpQ_fw658/format/webp"
+  thumb-link="../../pages/lectures/lectures?phot=0"
+>
+<view slot="footer" class="foot">
+  <navigator url="../../pages/lectures/lectures?phot=0" class="check" hover-class="none">查看全部 
+    <text decode='true'>&gt;</text><text decode='true'>&gt;</text>
+  </navigator>
+  </view>
+</van-card>
+ </view>  
+ <view class="card">
+  <van-card lazy-load="ture"
+  desc="主讲人：方老师"
+  title="应用数学学院就业指导讲座"
+  descmore="时间：..."
+  thumb="https://hbimg.huabanimg.com/782848274fd53301305f5b3c6740f4c37d8be58758a1a-M9Gb8y_fw658/format/webp"
+  thumb-link="../../pages/lectures/lectures?phot=1"
+>
+  <view slot="footer" class="foot">
+  <navigator url="../../pages/lectures/lectures?phot=1" class="check" hover-class="none">查看全部 
+    <text decode='true'>&gt;</text><text decode='true'>&gt;</text>
+  </navigator>
+  </view>
+</van-card>
+ </view>  
+ <view class="card">
+  <van-card lazy-load="ture"
+  desc="主讲人：蔡老师"
+  title="机电学院就业指导讲座"
+  descmore="时间：..."
+  thumb="https://hbimg.huabanimg.com/9152fd9de38d2b0b3d420491a5431e4980a36f44fd67-IYIps0_fw658/format/webp"
+  thumb-link="../../pages/lectures/lectures?phot=2"
+>
+  <view slot="footer" class="foot">
+  <navigator url="../../pages/lectures/lectures?phot=2" class="check" hover-class="none">查看全部 
+    <text decode='true'>&gt;</text><text decode='true'>&gt;</text>
+  </navigator>
+  </view>
+</van-card>
+ </view>   
+ <view class="card">
+  <van-card lazy-load="ture"
+  desc="主讲人：蔡老师"
+  title="建筑学院就业指导讲座"
+  descmore="时间：..."
+  thumb="https://hbimg.huabanimg.com/c72c3c974b8c8722bf9d90401240f3eadc927510208af-CzzneC_fw658/format/webp"
+  thumb-link="../../pages/lectures/lectures?phot=3"
+>
+  <view slot="footer" class="foot">
+  <navigator url="../../pages/lectures/lectures?phot=3" class="check" hover-class="none">查看全部 
+    <text decode='true'>&gt;</text><text decode='true'>&gt;</text>
+  </navigator>
+  </view>
+</van-card>
+ </view>  
+</view>
+<!-- 三 -->
+<view  wx:if="{{indexmy==2}}">
+ <view class="card" >
+  <van-card  lazy-load="ture" 
+  desc="1.面试中如何做好自我介绍？ 答：（1）控制时间。在面试中，应聘者应将自我介绍的时间控制在一分钟左右。介绍内容主要包括"
+  title="面试常见问题释疑"
+  descmore="标签：面试"
+  thumb="https://ftp.bmp.ovh/imgs/2021/02/3d1024cb102765f3.png"
+  thumb-link="../../pages/jobinformation/jobinformation?job=0"
+>
+<view slot="footer" class="foot">
+  <navigator url="../../pages/jobinformation/jobinformation?job=0" class="check" hover-class="none">查看全部 
+    <text decode='true'>&gt;</text><text decode='true'>&gt;</text>
+  </navigator>
+  </view>
+</van-card>
+ </view>  
+ <view class="card">
+  <van-card lazy-load="ture"
+  desc="本研究关注用户自主传播的媒体创意效应，借此探讨所谓新媒体现状及发展趋势。在查阅与翻译了大量中英文相关资料基础上，对腾讯、阿里、"
+  title="新媒体现状及未来媒体发展趋势的分析研究"
+  descmore="标签：新兴媒体、媒体用户、创意"
+  thumb="https://hbimg.huabanimg.com/782848274fd53301305f5b3c6740f4c37d8be58758a1a-M9Gb8y_fw658/format/webp"
+  thumb-link="../../pages/jobinformation/jobinformation?job=1"
+>
+  <view slot="footer" class="foot">
+  <navigator url="../../pages/jobinformation/jobinformation?job=1" class="check" hover-class="none">查看全部 
+    <text decode='true'>&gt;</text><text decode='true'>&gt;</text>
+  </navigator>
+  </view>
+</van-card>
+ </view>  
+ <view class="card">
+  <van-card lazy-load="ture"
+  desc="1. 工作经验是核心。 人事经理在查看简历时，最感兴趣的是你的工作经验。在填写简历时，一定要在描述工作经验上多花些功夫，要尽量详细描述你的工作内容和职责"
+  title="制作含金量高的简历"
+  descmore="标签：简历"
+  thumb="https://hbimg.huabanimg.com/f1b84115b8e1536c8798e8d7423cfdb22c6196ed199731-xlD41U_fw658/format/webp"
+  thumb-link="../../pages/jobinformation/jobinformation?job=2"
+>
+  <view slot="footer" class="foot">
+  <navigator url="../../pages/jobinformation/jobinformation?job=2" class="check" hover-class="none">查看全部 
+    <text decode='true'>&gt;</text><text decode='true'>&gt;</text>
+  </navigator>
+  </view>
+</van-card>
+ </view>   
+ <view class="card">
+  <van-card lazy-load="ture"
+  desc="最近正值校招浪潮奔涌之际，在参加过一次又一次的校招会后,各位准毕业生们，你们是否有很多小问号?第一份工作真的很重要吗?第-份工作到底该怎么选择?是选择初创公司还是成熟大厂?"
+  title="@准毕业生们，你的第一份工作怎么选择?"
+  descmore="标签：选择"
+  thumb="https://ftp.bmp.ovh/imgs/2021/02/63cb86d71407a764.png"
+  thumb-link="../../pages/jobinformation/jobinformation?job=3"
+>
+  <view slot="footer" class="foot">
+  <navigator url="../../pages/jobinformation/jobinformation?job=3" class="check" hover-class="none">查看全部 
+    <text decode='true'>&gt;</text><text decode='true'>&gt;</text>
+  </navigator>
+  </view>
+</van-card>
+ </view>  
+</view>
+
+
+<!-- 四 -->
+<view  wx:if="{{indexmy==3}}"> 
+<block wx:for="{{qandanswer}}" wx:key="index">
+<view class="card answer" id="{{index}}" bindtap="answerzdetail" > 
+  <navigator url="../../pages/jobqanda/jobqanda?answer={{index}}" hover-class="none">
+ <view class="question">{{item.question}}</view>
+ <view class="queslittletext">{{item.num}}次浏览 · {{item.huida}}个回答</view> 
+ <view class="time">{{item.time}}</view>
+</navigator>
+</view>
+</block>
+</view>
+<!-- 底部 -->
+ <view class="bottom_line">
+  <view class="bottom_boreder"></view>  <view class="text">已经到底了</view>  <view class="bottom_boreder"></view>
+</view>
+</view>
+
+

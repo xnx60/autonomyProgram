@@ -1,0 +1,55 @@
+<!--component/showBox/showBox.wxml-->
+<view class="border_box">
+ <view class="card" bindtap="jump">
+  <van-card lazy-load="ture" 
+  desc="讲师，建筑与城市规划学院团委书记"
+  descmore="硕士"
+  title="刘悦"
+  thumb="https://img.imgdb.cn/item/60903940d1a9ae528fa8424c.png"
+  thumb-link="../../pages/aidadetail/aidadetail"
+  id="0"
+>
+
+</van-card>
+ </view>  
+ 
+ <view class="card" bindtap="jump1">
+  <van-card lazy-load="ture"
+  desc="心理学讲师、学生工作部副部长"
+  descmore="硕士"
+  title="李镇贤"
+  thumb-link="../../pages/aidadetail/aidadetail"
+  thumb="https://img.imgdb.cn/item/60903ed6d1a9ae528fda05e3.jpg"
+>
+
+</van-card>
+ </view>
+  
+ <view class="card" bindtap="jump2">
+  <van-card lazy-load="ture"
+  desc="高级咨询师，助教"
+  descmore="硕士"
+  title="李婷"
+  thumb-link="../../pages/aidadetail/aidadetail"
+  thumb="https://img.imgdb.cn/item/60903f80d1a9ae528fdf54ae.png"
+>
+
+</van-card>
+ </view>  
+ <view class="card" bindtap="jump3">
+  <van-card lazy-load="ture"
+  desc="讲师，建筑与城市规划学院党委副书记"
+  descmore="硕士"
+  title="李晓伟"
+  thumb-link="../../pages/aidadetail/aidadetail"
+  thumb="https://img.imgdb.cn/item/60903febd1a9ae528fe2fdf6.png"
+>
+
+</van-card>
+ </view>  
+ <view class="bottom_line">
+  <view class="bottom_boreder"></view>  <view class="text1">已经到底了</view>  <view class="bottom_boreder"></view>
+</view>
+</view>
+
+

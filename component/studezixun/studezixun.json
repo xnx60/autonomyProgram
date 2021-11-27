@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {},
+  "navigationBarTextStyle":"white",
+  "navigationBarBackgroundColor": "#c5c2fc",
+  "navigationBarTitleText": "就业资讯"
+}

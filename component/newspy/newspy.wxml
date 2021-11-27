@@ -1,0 +1,323 @@
+<!--component/newspy/newspy.wxml-->
+<van-tree-select
+  items="{{ items }}"
+  height="81vw"
+  main-active-index="{{ mainActiveIndex }}"
+  bind:click-nav="onClickNav"
+>
+<!-- 大一 -->
+<view slot="content" wx:if="{{currentIndex == 0}}">
+<view class="cu-card article {{isCard?'no-card':''}}" >
+  <view class="cu-item shadow" bindtap="textone" >
+    <view class="title">
+      <view class="text-cut">什么是依恋型人格</view>
+    </view>
+    <view class="content" id="0">
+      <image class="photo" src="http://m.xinlingletu.com//uploads/allimg/151230/8-1512301FK4912-lp.jpg" mode="aspectFit"></image>
+      <view class="desc">
+        <view class="text-content">大学生活是跟高中、初中生活完全不一样的，在这里需要依靠自己和朋友，所以大学生沟通与交流是非常重要的。不论是从学习方面来看还是从</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">笔者：心理咨询中心</view>
+          <view class="cu-tag bg-green light sm round marg">标签：适应、寄语</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view> 
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow" bindtap="textone">
+    <view class="title">
+      <view class="text-cut">大学新生如何度过心理失衡期</view>
+    </view>
+    <view class="content" id="1">
+      <image src="http://m.xinlingletu.com//uploads/allimg/160107/8-16010G04442327-lp.jpg" mode="aspectFit"></image>
+      <view class="desc">
+        <view class="text-content">在大学新生入学后，或多或少会产生心理失衡的问题。导致心理失衡的因素首先是新生心目中的大学与现实中的大学发生冲突，在大学新生入学后，或多或少会产生心理失衡的问题。导致心理失衡的因素首先是新生心目中的大学</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">笔者：YP</view>
+          <view class="cu-tag bg-green light sm round marg">标签：心理落差</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view> 
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow" bindtap="textone" id="3">
+    <view class="title">
+      <view class="text-cut">大学生沟通交流技巧</view>
+    </view>
+    <view class="content">
+      <image src="http://m.xinlingletu.com//uploads/allimg/151228/2-15122Q23S0915-lp.jpg" mode="aspectFit"></image>
+      <view class="desc">
+        <view class="text-content">大学生活是跟高中、初中生活完全不一样的，在这里需要依靠自己和朋友，所以大学生沟通与交流是非常重要的。不论是从学习方面来看还是从生活方面</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">笔者：心乐土</view>
+          <view class="cu-tag bg-green light sm round marg">标签：人际</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view> 
+</view>
+<!-- 大二 -->
+<view slot="content" wx:if="{{currentIndex == 1}}">
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow" bindtap="textone">
+    <view class="title">
+      <view class="text-cut">遇到脾气不好的人怎么办</view>
+    </view>
+    <view class="content">
+      <image src="http://m.xinlingletu.com//uploads/allimg/160121/8-16012110445Gc-lp.jpg" mode="aspectFit"></image>
+      <view class="desc">
+        <view class="text-content">人在这一生中会遇到很多的人，有些只是擦肩而过的过客，在你的生命中留下一段故事，而有些人从此就留在了你的人生里面，但是每</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">笔者：阿吉</view>
+          <view class="cu-tag bg-green light sm round marg">标签：脾气、宽容</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view> 
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow" bindtap="textone">
+    <view class="title">
+      <view class="text-cut">怎样克服厌学心理</view>
+    </view>
+    <view class="content">
+      <image src="http://m.xinlingletu.com/uploads/allimg/151026/4-151026155S04C.jpg" mode="aspectFit"></image>
+      <view class="desc">
+        <view class="text-content">厌学心理是对学习产生厌倦甚至是厌恶，从而选择逃避的一种心态。苏霍姆林斯基曾说过：“一开始就不爱学习的孩子是根本没有的。” 但是，随着时代的发展，越来越多的孩子受到读书无用论的冲击，这一问题在学生当中越发严重，许多学生都</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">笔者：KONE</view>
+          <view class="cu-tag bg-green light sm round marg">标签：学习</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view> 
+</view>
+<!-- 大三 -->
+<view slot="content" wx:if="{{currentIndex == 2}}">
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow" bindtap="textone">
+    <view class="title">
+      <view class="text-cut">大学生性心理问题</view>
+    </view>
+    <view class="content">
+      <image src="http://m.xinlingletu.com//uploads/allimg/160107/8-16010G04442327-lp.jpg" mode="aspectFit"></image>
+      <view class="desc">
+        <view class="text-content">大学生的整个身体已经发育成熟，性生理也发育成熟，但是由于受到传统观念的影响，大学生的性心理发展滞后，性的问题一直是蒙着的。大学生们很难获得完</view>
+        <view>
+          <view class="cu-tag bg-green light sm round marg">标签：性心理</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view> 
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow" bindtap="textone">
+    <view class="title">
+      <view class="text-cut">失恋了很痛苦怎么办？</view>
+    </view>
+    <view class="content">
+      <image src="http://m.xinlingletu.com/uploads/allimg/151104/4-151104145144G3.jpg" mode="aspectFit"></image>
+      <view class="desc">
+        <view class="text-content">失恋了很痛苦怎么办?现在说的这些能不能走出这段感情是不一定的，只能说帮助你不难过。</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">笔者：心乐土</view>
+          <view class="cu-tag bg-green light sm round marg">标签：失恋</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view> 
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow" bindtap="textone">
+    <view class="title">
+      <view class="text-cut">自卑心理如何矫治效果会好</view>
+    </view>
+    <view class="content">
+      <image src="http://m.xinlingletu.com/uploads/allimg/151104/4-151104110202330.jpg" mode="aspectFit"></image>
+      <view class="desc">
+        <view class="text-content">生活当中很多人都有自卑心理，做什么事情都觉得自己能力不够，平时也不敢发表自己的意见。虽然自己也知道这样的心理是不好的，但</view>
+        <view>
+          <view class="cu-tag bg-green light sm round marg">标签：人际</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view> 
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow" bindtap="textone">
+    <view class="title">
+      <view class="text-cut">为什么你的努力一文不值?</view>
+    </view>
+    <view class="content">
+      <image src="http://m.xinlingletu.com/uploads/allimg/151013/2-1510131K205307.jpg" mode="aspectFit"></image>
+      <view class="desc">
+        <view class="text-content">让一个研究生男收集一份资料，快下班了问结果，竟然毛也没有。见我要怒，他慷慨激昂地说：“我已经很努力找了，但真的查不到。”</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">笔者：XLT</view>
+          <view class="cu-tag bg-green light sm round marg">标签：人际</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view> 
+</view>
+
+<!-- 大四 -->
+<view slot="content" wx:if="{{currentIndex == 3}}">
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow" bindtap="textone">
+    <view class="title">
+      <view class="text-cut">如何应对冷暴力分手</view>
+    </view>
+    <view class="content">
+      <image src="http://m.xinlingletu.com//uploads/allimg/160107/8-16010G04442327-lp.jpg" mode="aspectFit"></image>
+      <view class="desc">
+        <view class="text-content">在男女关系中，有很多的男性，明明已经不再爱对方了，却不会主动地提出分手，都是希望女方能够主动地提出分手，为此采</view>
+        <view>
+          <view class="cu-tag bg-green light sm round marg">标签：分手、失恋</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view> 
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow" bindtap="textone">
+    <view class="title">
+      <view class="text-cut">面试时紧张怎么办</view>
+    </view>
+    <view class="content">
+      <image src="http://m.xinlingletu.com//uploads/allimg/151117/4-15111G14322592-lp.jpg" mode="aspectFit"></image>
+      <view class="desc">
+        <view class="text-content">有些人在重要的面试场合经常会紧张，即使是身经百战的人，有时也会紧张。有些人在事前做好了充分的准备，有时候也难免会</view>
+        <view>
+          <view class="cu-tag bg-green light sm round marg">标签：面试、职场</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view> 
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow" bindtap="textone">
+    <view class="title">
+      <view class="text-cut">毕业后的迷茫综合症</view>
+    </view>
+    <view class="content">
+      <image src="http://m.xinlingletu.com/uploads/allimg/151106/4-151106144911122.jpg" mode="aspectFit"></image>
+      <view class="desc">
+        <view class="text-content">每年到了毕业的季节都有很多的毕业生去离开学校，走上寻找工作的慢慢历程，不过最令同学们煎熬的是不知道该做什么，何去何从，并不是找工作的事情，那么该如何尽快的拜托</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">笔者：阿各拉</view>
+          <view class="cu-tag bg-green light sm round marg">标签：毕业、迷茫</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view> 
+</view>
+</van-tree-select>
+<van-divider contentPosition="center">心灵 “暖宝” </van-divider>
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow" bindtap="textone">
+    <view class="title">
+      <view class="text-cut">如何选择合适自己的咨询师</view>
+    </view>
+    <view class="content">
+      <image src="http://m.xinlingletu.com/uploads/allimg/151228/2-15122Q42H5C0.jpg" mode="aspectFit"></image>
+      <view class="desc">
+        <view class="text-content">心理咨询与治疗，一定要在来访者的生活、工作所在地进行。在心理咨询的过程中，来访者一定不能脱离他自己原有的生活环境，而一旦来访者脱离了他自己的生活实际，心理咨询几乎是无法取得满意效果的。</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">笔者：丛中</view>
+          <view class="cu-tag bg-green light sm round marg">标签：咨询、选择</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view> 
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow" bindtap="textone">
+    <view class="title">
+      <view class="text-cut">焦虑症的自救方法</view>
+    </view>
+    <view class="content">
+      <image src="http://m.xinlingletu.com/uploads/allimg/160121/8-160121103UN14.jpg" mode="aspectFit"></image>
+      <view class="desc">
+        <view class="text-content"> 人们在压力大的时候常常会产生焦虑的情绪，严重的话会造成焦虑症，对于焦虑症的治疗主要是以心理治疗为主，一些自救的方法对精神焦虑的轻度患者来说，也能起到良好的缓解症状的作用。那么，焦虑症的自救方法。</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">笔者：心乐土</view>
+          <view class="cu-tag bg-green light sm round marg">标签：焦虑症</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view> 
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow" bindtap="textone">
+    <view class="title">
+      <view class="text-cut">心情低落怎么调整</view>
+    </view>
+    <view class="content">
+      <image src="http://m.xinlingletu.com//uploads/allimg/160107/8-16010G02F4O4-lp.jpg" mode="aspectFit"></image>
+      <view class="desc">
+        <view class="text-content">生活中，总会有喜怒哀乐，人总有情绪低落的时候，原因可能是人或者事，有些时候，往往会耿耿于怀不能释怀。情绪低落影响学习和生活，做事没心情，吃饭也不香，有时候还会出现失眠的情况。那么如何去调整情绪低落呢?</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">笔者：CY</view>
+          <view class="cu-tag bg-green light sm round marg">标签：调整、心情低落</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view> 
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow" bindtap="textone">
+    <view class="title">
+      <view class="text-cut">如何提升自我价值感</view>
+    </view> 
+    <view class="content">
+      <image src="http://m.xinlingletu.com/uploads/allimg/151228/2-15122Q13453J6.jpg" mode="aspectFit"></image>
+      <view class="desc">
+        <view class="text-content">自我的价值来自于我们的内心。即使得到无限多的钱财，高档小车，大房子也没办法将自己的价值感提升，因为自我的价值感是内在，当你</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">笔者：心乐土</view>
+          <view class="cu-tag bg-green light sm round marg">标签：自我价值</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view> 
+<view class="cu-card article {{isCard?'no-card':''}}">
+  <view class="cu-item shadow" bindtap="textone">
+    <view class="title">
+      <view class="text-cut">大学生实现自我价值</view>
+    </view> 
+    <view class="content">
+      <image src="http://m.xinlingletu.com//uploads/allimg/151106/4-151106160325C7-lp.jpg" mode="aspectFit"></image>
+      <view class="desc">
+        <view class="text-content">人的一生要完成自己的人生目标，实现自己的人生价值，一定要树立好完整的价值观人生观，正确处理好与他人与社会的关系，正确认识贡献和索取的关系，完整实现自己的人生价值。</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">笔者：雅芳</view>
+          <view class="cu-tag bg-green light sm round marg">标签：自我价值</view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view> 
+<view class="bottom_line">
+  <view class="bottom_boreder"></view>  <view class="text">已经到底了</view>  <view class="bottom_boreder"></view>
+</view>

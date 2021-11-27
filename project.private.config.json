@@ -1,0 +1,95 @@
+{
+  "setting": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "就业指导",
+          "pathName": "pages/jobconsult/jobconsult",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "学业辅导",
+          "pathName": "pages/study/study",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "就业问答",
+          "pathName": "pages/jobqanda/jobqanda",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "树洞",
+          "pathName": "pages/secret/secret",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "学业资讯",
+          "pathName": "pages/studyinformation/studyinformation",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/psychology/psychology",
+          "pathName": "pages/psychology/psychology",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "广场",
+          "pathName": "pages/mysquare/mysquare",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "我的",
+          "pathName": "pages/user/user",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/dayplane/dayplane",
+          "pathName": "pages/dayplane/dayplane",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/bindlove/bindlove",
+          "pathName": "pages/bindlove/bindlove",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/bind/bind",
+          "pathName": "pages/bind/bind",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/forget/forget",
+          "pathName": "pages/forget/forget",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/tomato/tomato",
+          "pathName": "pages/tomato/tomato",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

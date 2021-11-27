@@ -1,0 +1,23 @@
+<view class="two">
+<block wx:for="{{detail}}" wx:key="index">
+<view class="bg" >
+<view class="turetop">
+  <image class="avatar" src="{{item.photo}}"></image>
+  <view class="writer">{{item.writer}}</view>
+</view>
+<view class="text"> {{item.cont}}
+<navigator hover-class="none" url="../../pages/mysquare/mysquare?square={{index}}">
+    <view class="blue">...全文</view>
+  </navigator>
+  <view class="share">
+  <view class="iconfont icon-zhuanfafasong-3"></view>
+  <view class="iconfont icon-huida"><text class="pad">{{item.pinlun}}</text> </view>
+  <view class="iconfont icon-zan "><text class="pad">{{item.dianzan}}</text> </view>
+</view>
+</view>
+</view>
+</block>
+<view class="bottom_line">
+  <view class="bottom_boreder"></view>  <view class="text1">已经到底了</view>  <view class="bottom_boreder"></view>
+</view>
+</view>

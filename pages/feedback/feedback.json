@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "UpImg":"../../component/imgup/imgup"
+  },
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText":"意见反馈"
+}

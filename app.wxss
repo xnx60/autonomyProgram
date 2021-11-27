@@ -1,0 +1,9 @@
+@import "style/icon.wxss";
+view,text,swiper,swiper-item,image,navigator{ 
+  box-sizing: border-box;
+}
+page {
+  font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica,
+    Segoe UI, Arial, Roboto, 'PingFang SC', 'miui', 'Hiragino Sans GB', 'Microsoft Yahei',
+    sans-serif;
+}
